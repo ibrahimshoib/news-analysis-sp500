@@ -1,0 +1,121 @@
+{
+  "source_sha256": "9a4c9de0a4efd9c79a33fbbbda8d09a26ffaaa017cece190916a2a6a53698d06",
+  "publication_range": [
+    "2014-12-22",
+    "2023-12-31"
+  ],
+  "session_range": [
+    "2014-12-23",
+    "2024-01-02"
+  ],
+  "audit": {
+    "headline_count": 1320380,
+    "publication_days": 3297,
+    "sessions": 2271,
+    "reused_targets": 1026,
+    "reuse_fraction": 0.3111919927206551,
+    "calendar_test_rows": 728,
+    "calendar_lag_accuracy": 0.6510989010989011,
+    "calendar_test_reused": 227,
+    "calendar_test_reused_correct": 227,
+    "session_test_rows": 501,
+    "session_lag_accuracy": 0.4930139720558882,
+    "example": [
+      {
+        "published_date": "2023-01-06",
+        "market_date": "2023-01-09",
+        "market_return": -0.000767635067829
+      },
+      {
+        "published_date": "2023-01-07",
+        "market_date": "2023-01-09",
+        "market_return": -0.000767635067829
+      },
+      {
+        "published_date": "2023-01-08",
+        "market_date": "2023-01-09",
+        "market_return": -0.000767635067829
+      }
+    ]
+  },
+  "training": {
+    "sessions": 1749,
+    "first": "2015-01-23",
+    "last": "2021-12-31"
+  },
+  "holdout": {
+    "sessions": 501,
+    "first": "2022-01-03",
+    "last": "2023-12-29",
+    "up_fraction": 0.48902195608782434
+  },
+  "associations": {
+    "tone_previous": 0.14343629484233483,
+    "tone_next": -0.029786630137882745,
+    "dispersion_target": 0.19801959614728606,
+    "dispersion_holdout": 0.09444921938859221,
+    "buffered_dispersion_holdout": 0.04386075884380297
+  },
+  "direction": {
+    "base_up_probability": {
+      "accuracy": 0.48902195608782434,
+      "auc": 0.5,
+      "brier": 0.2532606556200522
+    },
+    "market_up_probability": {
+      "accuracy": 0.5049900199600799,
+      "auc": 0.49185267857142856,
+      "brier": 0.257564525026991
+    },
+    "market_news_up_probability": {
+      "accuracy": 0.49101796407185627,
+      "auc": 0.49013073979591837,
+      "brier": 0.26468145955177114
+    }
+  },
+  "volatility": {
+    "base_abs_return": {
+      "mae": 0.0064355446807076834,
+      "rmse": 0.009401945409736644
+    },
+    "market_abs_return": {
+      "mae": 0.006059220908568624,
+      "rmse": 0.007989142515172779
+    },
+    "market_news_abs_return": {
+      "mae": 0.006059320490881601,
+      "rmse": 0.008052916154788555
+    }
+  },
+  "bootstrap": {
+    "block_sessions": 10,
+    "resamples": 2000,
+    "seed": 42,
+    "intervals": {
+      "brier": [
+        0.003429588923530118,
+        0.010418831607763015
+      ],
+      "mae": [
+        -9.466171615978971e-05,
+        3.469456958382886e-05
+      ],
+      "rmse": [
+        -4.162258899236621e-06,
+        8.906086510145951e-05
+      ]
+    }
+  },
+  "yearly_loss_change": [
+    {
+      "year": 2022,
+      "brier": 0.01115192348104973,
+      "mae": -5.223542398850557e-05
+    },
+    {
+      "year": 2023,
+      "brier": 0.0030658056126854766,
+      "mae": 5.264392863966372e-05
+    }
+  ]
+}

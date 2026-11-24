@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="464" height="204" preserveAspectRatio="xMinYMin meet" viewBox="0 0 464 204" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="464" height="204"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-204)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="464" height="204" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,96%,95%); fill-rule: evenodd;"/>
+			<text x="16" y="182" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(3%,40%,38%); stroke:none;" transform="translate(0,364) scale(1,-1)">Change in test error when news is added</text>
+			<path d="M 153,150 L 319,150 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 194.5,140 L 194.5,160 Z" style="stroke: rgb(28%,36%,40%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 230.081985,150 L 302.595378,150 Z" style="stroke: rgb(3%,40%,38%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="268.3381956945938" cy="150" r="3.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,40%,38%); fill-rule: evenodd;"/>
+			<text x="16" y="147" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(7%,14%,18%); stroke:none;" transform="translate(0,294) scale(1,-1)">Brier score</text>
+			<text x="374.436" y="147" style="font-family: Helvetica; font-size: 9px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,294) scale(1,-1)">[+0.0034, +0.0104]</text>
+			<text x="192.276" y="128" style="font-family: Helvetica; font-size: 8px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,256) scale(1,-1)">0</text>
+			<path d="M 153,105 L 319,105 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 239.952381,95 L 239.952381,115 Z" style="stroke: rgb(28%,36%,40%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 165.124548,105 L 267.377612,105 Z" style="stroke: rgb(3%,40%,38%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="240.03109839978202" cy="105" r="3.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,40%,38%); fill-rule: evenodd;"/>
+			<text x="16" y="102" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(7%,14%,18%); stroke:none;" transform="translate(0,204) scale(1,-1)">MAE (bp)</text>
+			<text x="396.711" y="102" style="font-family: Helvetica; font-size: 9px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,204) scale(1,-1)">[-0.95, +0.35]</text>
+			<text x="237.72838095238097" y="83" style="font-family: Helvetica; font-size: 8px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,166) scale(1,-1)">0</text>
+			<path d="M 153,60 L 319,60 Z" style="stroke: rgb(83%,87%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 239.952381,50 L 239.952381,70 Z" style="stroke: rgb(28%,36%,40%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 236.662214,60 L 310.352874,60 Z" style="stroke: rgb(3%,40%,38%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="290.3639246486615" cy="60" r="3.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,40%,38%); fill-rule: evenodd;"/>
+			<text x="16" y="57" style="font-family: Helvetica-Bold; font-size: 9.5px;fill: rgb(7%,14%,18%); stroke:none;" transform="translate(0,114) scale(1,-1)">RMSE (bp)</text>
+			<text x="396.711" y="57" style="font-family: Helvetica; font-size: 9px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,114) scale(1,-1)">[-0.04, +0.89]</text>
+			<text x="237.72838095238097" y="38" style="font-family: Helvetica; font-size: 8px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,76) scale(1,-1)">0</text>
+			<text x="16" y="15" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(28%,36%,40%); stroke:none;" transform="translate(0,30) scale(1,-1)">Negative values favor the model with news. Each row has its own scale.</text>
+		</g>
+	</g>
+</svg>
